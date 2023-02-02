@@ -18,5 +18,8 @@
     "prisma": "^4.9.0",
     "prisma-erd-generator": "^1.2.5",
     "typescript": "^4.9.5"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
   }
 }
