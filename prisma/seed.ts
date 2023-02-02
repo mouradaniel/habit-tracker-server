@@ -22,13 +22,13 @@ async function run() {
       created_at: firstHabitCreationDate,
       weekDays: {
         create: [
+          { week_day: 0 }
           { week_day: 1 },
           { week_day: 2 },
           { week_day: 3 },
           { week_day: 4 },
           { week_day: 5 },
           { week_day: 6 },
-          { week_day: 7 }
         ]
       }
     }
@@ -41,13 +41,13 @@ async function run() {
       created_at: secondHabitCreationDate,
       weekDays: {
         create: [
+          { week_day: 0 },
           { week_day: 1 },
           { week_day: 2 },
           { week_day: 3 },
           { week_day: 4 },
           { week_day: 5 },
           { week_day: 6 },
-          { week_day: 7 },
         ]
       }
     }
